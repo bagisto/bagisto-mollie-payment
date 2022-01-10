@@ -1,0 +1,34 @@
+{
+  "name": "bagisto/bagisto-mollie-payment",
+  "description": "Helps businesses of all sizes to sell and build more efficiently with a solid but easy-to-use payment solution with bagisto.",
+  "keywords": [
+    "bagisto",
+    "product mollie payment",
+    "mollie payment"
+  ],
+  "homepage": "https://github.com/bagisto/bagisto-mollie-payment",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jitendra Singh",
+      "email": "jitendra@webkul.com"
+    }
+  ],
+  "require": {
+    "konekt/concord": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webkul\\Mollie\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Webkul\\Mollie\\Providers\\MollieServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "minimum-stability": "dev"
+}
