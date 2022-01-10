@@ -1,5 +1,5 @@
 {
-  "name": "bagisto/bagisto-mollie-payment",
+  "name": "bagisto/mollie-payment",
   "description": "Helps businesses of all sizes to sell and build more efficiently with a solid but easy-to-use payment solution with bagisto.",
   "keywords": [
     "bagisto",
