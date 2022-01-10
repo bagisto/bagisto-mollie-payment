@@ -15,7 +15,8 @@
     }
   ],
   "require": {
-    "konekt/concord": "^1.2"
+    "konekt/concord": "^1.2",
+    "mollie/laravel-mollie": "dev-master"
   },
   "autoload": {
     "psr-4": {
