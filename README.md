@@ -29,8 +29,6 @@ composer dump-autoload
 ```
 
 ```
-composer require mollie/laravel-mollie:^2.11
-php artisan route:cache
 php artisan optimize
 ```
 
