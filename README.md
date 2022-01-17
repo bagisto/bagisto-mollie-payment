@@ -12,7 +12,7 @@ Mollie helps businesses of all sizes to sell and build more efficiently with a s
 
 - Up-to-date OpenSSL (or other SSL/TLS toolkit)
 
-## Installation with composer:
+## Installation :
 - Run the following command
 ```
 composer require bagisto/bagisto-mollie-payment
@@ -31,36 +31,6 @@ composer dump-autoload
 ```
 composer require mollie/laravel-mollie:^2.11
 php artisan route:cache
-php artisan optimize
-```
-
-## Installation without composer:
-
-- Unzip the respective extension zip and then merge "packages" folder into project root directory.
-- Goto config/app.php file and add following line under 'providers'
-
-```
-Webkul\Mollie\Providers\MollieServiceProvider::class
-```
-
-- Goto composer.json file and add following line under 'psr-4'
-
-```
-"Webkul\\Mollie\\": "packages/Webkul/Mollie/src"
-```
-
-- Run these commands below to complete the setup
-
-```
-composer dump-autoload
-```
-```
-composer require mollie/laravel-mollie:^2.11
-```
-```
-php artisan route:cache
-```
-```
 php artisan optimize
 ```
 
